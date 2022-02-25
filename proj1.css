@@ -1,0 +1,109 @@
+
+body{
+    font-family: 'Gideon Roman', cursive;
+}
+
+h1{
+    font-size: 3.5rem;;
+}
+
+h2{
+    font-size: 2rem;
+}
+h3{
+ font-size: 1.5rem;
+}
+
+.nav{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    height:8vh;
+    padding-right:2vw;
+}
+
+.nav h3{
+    margin:0px 8px 0px 8px;
+    color:white;
+}
+.dino{
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+
+.intro{
+    width:30vw;
+} 
+
+.landing{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4vh 0vw 4vh 0vw;
+    height:85vh;
+}
+
+.blue-box{
+    background-color: teal;
+    height: 90%;
+    width:30%;
+    position: absolute;
+    z-index: -1;
+    top:0px;
+    right:0px;
+}
+
+.diego{
+    transform: translateX(-10vw);
+}
+
+.content, .picture{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.picture{
+    align-items: center;
+}
+
+.content{
+    padding:8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.diego2, .silver-bullet, .diegosaur{
+    width:200px;
+    height:300px;
+    object-fit: cover;
+    margin:2vw;
+    object-position: left;
+}
+
+
+.description{
+    width:20vw;
+}
+
+.goals{
+    transform: translateY(8vh);
+}
+
+li{
+    margin-bottom:1vh;
+}
+
+.picture{
+    background-color: #99CDD5;
+    margin:16px;
+
+}
